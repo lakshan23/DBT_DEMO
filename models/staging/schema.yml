@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_payment_table 
+    columns:
+      - name: ID
+        type: VARCHAR(16777216)
+      - name: ORDER_ID
+        type: VARCHAR(16777216)
+      - name: PAYMENT_METHOD
+        type: VARCHAR(16777216)
+      - name: AMOUNT
+        type: NUMBER(38,0)
+           
