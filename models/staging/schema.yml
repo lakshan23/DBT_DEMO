@@ -1,10 +1,13 @@
 version: 2
 
 models:
-  - name: stg_payment_table 
+  - name: stg_payment_table_lk 
     columns:
       - name: UNIQUE_KEY
         type: VARCHAR(16777216)
+        tests:
+          - unique
+          - not_null
       - name: PAYMENT_METHOD
         type: VARCHAR(16777216)
       - name: AMOUNT

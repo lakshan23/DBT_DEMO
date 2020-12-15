@@ -9,6 +9,9 @@ sources:
         columns:
           - name: ID
             type: VARCHAR(16777216)
+            tests:
+              - unique
+              - not_null
           - name: ORDER_ID
             type: VARCHAR(16777216)
           - name: PAYMENT_METHOD
