@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_payment_table 
+  - name: stg_payment_table_<your_initials>
     columns:
       - name: UNIQUE_KEY
         type: VARCHAR(16777216)
